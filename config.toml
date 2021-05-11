@@ -3,7 +3,7 @@ baseURL = "https://winnie0v0.github.io/"
 defaultContentLanguage = "en"
 # language code
 languageCode = "en"
-title = "My New Hugo Site"
+title = "Vast Mistery"
 
 # Change the default theme to be use when building the site with Hugo
 theme = "LoveIt"
@@ -12,11 +12,11 @@ theme = "LoveIt"
   #  LoveIt theme version
   version = "0.2.X"
   # site description
-  description = "This is My New Hugo Site"
+  description = "This is Vast Mistery Site"
   # site keywords
   keywords = ["Theme", "Hugo"]
   # site default theme ("light", "dark", "auto")
-  defaultTheme = "auto"
+  defaultTheme = "light"
   # public git repo url only then enableGitInfo is true
   gitRepo = ""
   #  which hash function used for SRI, when empty, no SRI is used
@@ -75,7 +75,7 @@ theme = "LoveIt"
       # URL of the LOGO
       logo = ""
       # title name
-      name = "Winnie0v0"
+      name = "Vast Mistery"
       # you can add extra information before the name (HTML format is supported), such as icons
       pre = ""
       # you can add extra information after the name (HTML format is supported), such as icons
@@ -133,7 +133,7 @@ theme = "LoveIt"
       #  title shown in home page (HTML format is supported)
       title = ""
       # subtitle shown in home page
-      subtitle = "This is My New Hugo Site"
+      subtitle = "Hi there! Welcome to Vast Mistery"
       # whether to use typeit animation for subtitle
       typeit = true
       # whether to show social links
@@ -144,19 +144,19 @@ theme = "LoveIt"
     [params.home.posts]
       enable = true
       # special amount of posts in each home posts page
-      paginate = 6
+      paginate = 1
       #  replaced with hiddenFromHomePage in params.page
       # default behavior when you don't set "hiddenFromHomePage" in front matter
       defaultHiddenFromHomePage = false
 
   # Social config about the author
   [params.social]
-    GitHub = "xxxx"
+    GitHub = ""
     Linkedin = ""
-    Twitter = "xxxx"
-    Instagram = "xxxx"
-    Facebook = "xxxx"
-    Telegram = "xxxx"
+    Twitter = ""
+    Instagram = ""
+    Facebook = ""
+    Telegram = ""
     Medium = ""
     Gitlab = ""
     Youtubelegacy = ""
@@ -213,8 +213,8 @@ theme = "LoveIt"
     XMPP = ""
     Matrix = ""
     Bilibili = ""
-    Email = "xxxx@xxxx.com"
-    RSS = true #
+    Email = ""
+    RSS = false #
 
   #  Page config
   [params.page]
@@ -241,7 +241,7 @@ theme = "LoveIt"
       # whether to enable the table of the contents
       enable = true
       #  whether to keep the static table of the contents in front of the post
-      keepStatic = true
+      keepStatic = false
       # whether to make the table of the contents in the sidebar automatically collapsed
       auto = true
     #  KaTeX mathematical formulas
@@ -369,13 +369,15 @@ theme = "LoveIt"
         enable = false
       #  Utterances comment config
       [params.page.comment.utterances]
-        enable = false
+        enable = true
         # owner/repo
-        repo = ""
-        issueTerm = "pathname"
-        label = ""
-        lightTheme = "github-light"
-        darkTheme = "github-dark"
+        #repo = ""
+        #repo="Winnie0v0/winnie0v0.github.io"
+        #issueTerm = "pathname"
+        #label = ""
+        #label="UtterancesComment"
+        #lightTheme = "github-light"
+        #darkTheme = "github-dark"
     #  Third-party library config
     [params.page.library]
       [params.page.library.css]
@@ -539,30 +541,30 @@ theme = "LoveIt"
   taxonomyTerm = ["HTML"]
 
 [menu]
+  # [[menu.main]]
+  #   identifier = "posts"
+  #   # you can add extra information before the name (HTML format is supported), such as icons
+  #   pre = ""
+  #   # you can add extra information after the name (HTML format is supported), such as icons
+  #   post = ""
+  #   name = "Posts"
+  #   url = "/posts/"
+  #   # title will be shown when you hover on this menu link
+  #   title = ""
+  #   weight = 1
   [[menu.main]]
-    identifier = "posts"
-    # you can add extra information before the name (HTML format is supported), such as icons
+    identifier = "1"
     pre = ""
-    # you can add extra information after the name (HTML format is supported), such as icons
     post = ""
-    name = "Posts"
-    url = "/posts/"
-    # title will be shown when you hover on this menu link
+    name = "First"
+    url = "/navigationBar/first_post"
     title = ""
     weight = 1
   [[menu.main]]
-    identifier = "tags"
+    identifier = "2"
     pre = ""
     post = ""
-    name = "Tags"
-    url = "/tags/"
+    name = "Second"
+    url = "/navigationBar/second_post"
     title = ""
     weight = 2
-  [[menu.main]]
-    identifier = "categories"
-    pre = ""
-    post = ""
-    name = "Categories"
-    url = "/categories/"
-    title = ""
-    weight = 3
