@@ -568,3 +568,11 @@ theme = "LoveIt"
     url = "/navigationBar/second_post"
     title = ""
     weight = 2
+  [[menu.main]]
+    identifier = "3"
+    pre = ""
+    post = ""
+    name = "Third"
+    url = "/navigationBar/third_post"
+    title = ""
+    weight = 3
