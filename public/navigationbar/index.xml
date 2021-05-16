@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NavigationBars on Vast Mistery</title>
+    <link>https://winnie0v0.github.io/navigationbar/</link>
+    <description>Recent content in NavigationBars on Vast Mistery</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://winnie0v0.github.io/navigationbar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://winnie0v0.github.io/navigationbar/first_post/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://winnie0v0.github.io/navigationbar/first_post/</guid>
+      <description>Hello World  Here are someways to embed Plotly images  Json  Json works with some short-codes. However the slider is not working.      Plotly.d3.json(&#34;/plotly/test.json&#34;, function(err, fig) { Plotly.plot(&#39;\/plotly\/test.json&#39;, fig.data, fig.layout, {responsive: true}); });  Html  The html version of plotly is exported with CDN. The slider works! However, when the plot is too big it sometimes refused to show up.   First try: (With slider)  window.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://winnie0v0.github.io/navigationbar/second_post/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://winnie0v0.github.io/navigationbar/second_post/</guid>
+      <description>
+Tableau plots  Here we used Tableau Public   var divElement = document.getElementById(&#39;viz1620689576250&#39;); var vizElement = divElement.getElementsByTagName(&#39;object&#39;)[0]; vizElement.style.width=&#39;100%&#39;;vizElement.style.height=(divElement.offsetWidth*0.75)+&#39;px&#39;; var scriptElement = document.createElement(&#39;script&#39;); scriptElement.src = &#39;https://public.tableau.com/javascripts/api/viz_v1.js&#39;; vizElement.parentNode.insertBefore(scriptElement, vizElement);   -- </description>
+    </item>
+    
+  </channel>
+</rss>
