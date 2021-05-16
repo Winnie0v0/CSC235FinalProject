@@ -1,4 +1,4 @@
-# Winnie0v0Blog
+# CSC235 Final Project
 
 ## Todo
 * White pace after comment (loading instruction?)
