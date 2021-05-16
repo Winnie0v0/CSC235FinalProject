@@ -2,6 +2,6 @@
 	path = themes/LoveIt
 	url = https://github.com/dillonzq/LoveIt.git
 
-[submodule "public"]
-	path = public
-	url = https://github.com/Winnie0v0/winnie0v0.github.io
+# [submodule "public"]
+# 	path = public
+# 	url = https://github.com/Winnie0v0/winnie0v0.github.io
