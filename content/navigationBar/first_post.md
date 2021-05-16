@@ -82,7 +82,6 @@ plotly: true
 
 <br>
 <br>
-<br>
 
 <!-- no need utterance comment -->
 <!-- <script src="https://utteranc.es/client.js"
