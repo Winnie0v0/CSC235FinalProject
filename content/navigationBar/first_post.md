@@ -29,7 +29,6 @@ plotly: true
 <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>    
 <div id="9de01ca9-8031-45df-b636-e8a79a22544b" class="plotly-graph-div" style="height:100%; width:100%;"></div>
-
 <script type="text/javascript">
         window.PLOTLYENV=window.PLOTLYENV || {};
 
@@ -45,7 +44,6 @@ plotly: true
                 Plotly.animate('9de01ca9-8031-45df-b636-e8a79a22544b', null);
             })
     };
-
 </script>
 
 <br>
@@ -86,11 +84,12 @@ plotly: true
 <br>
 <br>
 
-<script src="https://utteranc.es/client.js"
+<!-- no need utterance comment -->
+<!-- <script src="https://utteranc.es/client.js"
         repo="Winnie0v0/winnie0v0.github.io"
         issue-term="pathname"
         label="UtterancesComment"
         theme="preferred-color-scheme"
         crossorigin="anonymous"
         async>
-</script>
+</script> -->

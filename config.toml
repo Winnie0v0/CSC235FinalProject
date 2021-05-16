@@ -328,10 +328,10 @@ theme = "LoveIt"
         clientSecret = ""
       # Valine comment config
       [params.page.comment.valine]
-        enable = false
-        appId = ""
-        appKey = ""
-        placeholder = ""
+        enable = true
+        appId = "sm9GSAFmMnW4OP49klCE4sSg-MdYXbMMI"
+        appKey = "csNXjox4RWwd6tTnl0xpxe8f"
+        placeholder = "Here is the comments"
         avatar = "mp"
         meta= ""
         pageSize = 10
@@ -369,7 +369,7 @@ theme = "LoveIt"
         enable = false
       #  Utterances comment config
       [params.page.comment.utterances]
-        enable = true
+        enable = false
         # owner/repo
         #repo = ""
         #repo="Winnie0v0/winnie0v0.github.io"

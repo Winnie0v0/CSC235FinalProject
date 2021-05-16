@@ -18,11 +18,12 @@ draft: false
 <br>
 <br>
 
-<script src="https://utteranc.es/client.js"
+<!-- no need utterance comment -->
+<!-- <script src="https://utteranc.es/client.js"
         repo="Winnie0v0/winnie0v0.github.io"
         issue-term="pathname"
         label="UtterancesComment"
         theme="preferred-color-scheme"
         crossorigin="anonymous"
         async>
-</script>
+</script> -->
