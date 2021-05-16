@@ -281,7 +281,7 @@ theme = "LoveIt"
       fullscreen = true
     #  social share links in post page
     [params.page.share]
-      enable = true
+      enable = false
       Twitter = true
       Facebook = true
       Linkedin = false
@@ -441,7 +441,7 @@ theme = "LoveIt"
 
   #  Cookie consent config
   [params.cookieconsent]
-    enable = true
+    enable = false
     # text strings used for Cookie consent banner
     [params.cookieconsent.content]
       message = ""
