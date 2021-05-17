@@ -1,6 +1,9 @@
 ---
 draft: false
 lightgallery: true
+toc:
+  enable: true
+  auto: true
 ---
 
 {{< admonition >}}
@@ -12,3 +15,10 @@ If you want to know about the extented Markdown syntax of **LoveIt** theme, plea
 > [:(far fa-kiss-wink-heart fa-fw): LoveIt](https://github.com/dillonzq/LoveIt) is a **clean**, **elegant** but **advanced** blog theme for [Hugo](https://gohugo.io/) developed by [Dillon](https://dillonzq.com).
 >
 > It is based on the original [LeaveIt Theme](https://github.com/liuzc/LeaveIt) and [KeepIt Theme](https://github.com/Fastbyte01/KeepIt).
+
+<br>
+<br>
+<br>
+<br>
+
+<hr style="border:0.5px dashed black"> </hr>

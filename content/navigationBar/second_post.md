@@ -1,5 +1,8 @@
 ---
 draft: false
+toc:
+  enable: true
+  auto: true
 ---
 
 <br>
@@ -15,6 +18,10 @@ draft: false
 
 <br>
 <br>
+<br>
+<br>
+
+<hr style="border:0.5px dashed black"> </hr>
 
 <!-- no need utterance comment -->
 <!-- <script src="https://utteranc.es/client.js"
