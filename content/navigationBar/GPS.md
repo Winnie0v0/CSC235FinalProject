@@ -11,6 +11,15 @@ draft: false
 
 <br>
 <br>
+
+Since GAS tech has collected geospatial data from the vehicles they have assigned to their employees, we use Tableau to graph the driving routes of each vehicle and fix those routes on the map of Kronos to tell which ID has abnormal travel behaviors. From the animations on our website, we can tell the locations travelled by each vehicle. We graph the travelling routes in the color of blue and the visiting frequency is demonstrated by the degree of color saturation. We can successfully track information about drivers who drive Vehicles ID 1-35, since those are assigned to employees as a welfare of GAStech company, and those are company properties whereas car ID in the form of 100 or something cannot be traced. Every employee has a possibility to request driving those trunks to pertain to business.
+
+By comparing the gps data and the transaction data, we matched some of the cards with the car id. We hypothesized that the large amount of expense was made by truck drivers for business transactions.
+
+We also identified car 35 that frequently travelled to Kronos Capitol during the night, with the corresponding employee being Vasco-Pais who has a close relationship with government officials. 
+
+<br>
+<br>
 <br>
 <br>
 

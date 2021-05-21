@@ -42,6 +42,14 @@ Then we plot a wordcloud displaying frequent used words in email subjects. There
 
 What should we do with the `email headers` dataset? Is there any information that we overlooked?
 
+<!-- * Ale Hann
+* Valentine Mies
+* Jeroen Karel
+* Henk Bodrogi
+* Carmine Osvaldo
+* Joreto Karell
+* Yanick Cato -->
+
 <br>
 <br>
 <br>
