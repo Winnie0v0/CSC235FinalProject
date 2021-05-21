@@ -556,8 +556,8 @@ theme = "LoveIt"
     identifier = "1"
     pre = ""
     post = ""
-    name = "Time Line"
-    url = "/navigationBar/TimeLine"
+    name = "News"
+    url = "/navigationBar/News"
     title = ""
     weight = 1
   [[menu.main]]

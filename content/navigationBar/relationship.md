@@ -19,7 +19,7 @@ draft: false
 <br>
 <br>
 
-{{< image src="/images/relationship/subject.png" alt="Wordcloud of Email subjects" caption="Email subjects" height="50%" width="50%">}}
+{{< image src="images/subject.png" alt="Wordcloud of Email subjects" caption="Email subjects" height="50%" width="50%">}}
 
 <br>
 <br>
