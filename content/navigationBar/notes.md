@@ -7,7 +7,7 @@ plotly: true
 <br>
 
 ## Hello World
-* Here are someways we used to embed Plotly graphs
+* These are some methods we used to embed Plotly graphs
 
 ## Json
 * Export Plotly as Json and embed the graph with short-codes.
