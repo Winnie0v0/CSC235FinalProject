@@ -1,26 +1,25 @@
 ---
 draft: false
 plotly: true
-
 ---
 
 <br>
 <br>
 
 ## Hello World
-* Here are someways to embed Plotly images
+* Here are someways we used to embed Plotly graphs
 
 ## Json
-* Json works with some short-codes.
+* Export Plotly as Json and embed the graph with short-codes.
 * However the slider is not working.
 
 {{< load-plotly >}}
 {{< plotly json="/plotly/test.json" height="400px" modebar="true">}}
 
 ## Html
-* The html version of plotly is exported with CDN.
+* Export Plotly as Html with CDN and copy paste the <div> section directly into markdown file.
 * The slider works! But is not stable for some reason.
-* However, when the plot is too big it sometimes refused to show up.
+* Also when the plot is too big it sometimes refuses to show up.
 
 <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
@@ -38,10 +37,18 @@ plotly: true
 
 ## Iframe
 
-* Loading large plots with heavy data works with iframe
-* Not sure which is better: hold plots on Plot.ly, Netlify, or Github
+* Embed any graph with link with iframe.
+* Not sure which is better: Github or Netlify
 
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://winnie0v0.github.io/plot_1" height="400px" width="100%"></iframe>
+
+## Tableau plots
+
+* Use Tableau Public and embed with given link
+
+<br>
+
+<div class='tableauPlaceholder' id='viz1621557666908' style='position: relative'><noscript><a href='#'><img alt='Employee Record ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Tr&#47;Try_1_16206895183770&#47;Sheet2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Try_1_16206895183770&#47;Sheet2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Tr&#47;Try_1_16206895183770&#47;Sheet2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1621557666908');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
 
 <br>
 <br>

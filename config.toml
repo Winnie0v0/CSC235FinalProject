@@ -495,7 +495,7 @@ theme = "LoveIt"
 
 # Author config
 [author]
-  name = "xxxx"
+  name = "Vast Mistery"
   email = ""
   link = ""
 
@@ -556,23 +556,39 @@ theme = "LoveIt"
     identifier = "1"
     pre = ""
     post = ""
-    name = "First"
-    url = "/navigationBar/first_post"
+    name = "Time Line"
+    url = "/navigationBar/TimeLine"
     title = ""
     weight = 1
   [[menu.main]]
     identifier = "2"
     pre = ""
     post = ""
-    name = "Second"
-    url = "/navigationBar/second_post"
+    name = "Relationship"
+    url = "/navigationBar/Relationship"
     title = ""
     weight = 2
   [[menu.main]]
     identifier = "3"
     pre = ""
     post = ""
-    name = "Third"
-    url = "/navigationBar/third_post"
+    name = "GPS"
+    url = "/navigationBar/GPS"
     title = ""
     weight = 3
+  [[menu.main]]
+    identifier = "4"
+    pre = ""
+    post = ""
+    name = "Money Transaction"
+    url = "/navigationBar/Money"
+    title = ""
+    weight = 4
+  [[menu.main]]
+    identifier = "99"
+    pre = ""
+    post = ""
+    name = "Notes"
+    url = "/navigationBar/notes"
+    title = ""
+    weight = 99
